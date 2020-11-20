@@ -8,11 +8,13 @@ import {FlexLayoutModule} from '@angular/flex-layout';
 import { ReactiveFormsModule } from '@angular/forms';
 import {HeaderComponent} from './components/header/header.component';
 import {ContactFormComponent} from './components/contact-form/contact-form.component';
+import {ContactListComponent} from './components/contact-list/contact-list.component';
 
 export const COMPONENTS = [
   AppComponent,
   HeaderComponent,
-  ContactFormComponent
+  ContactFormComponent,
+  ContactListComponent
 ];
 
 
