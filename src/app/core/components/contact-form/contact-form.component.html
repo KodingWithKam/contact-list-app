@@ -1,0 +1,23 @@
+<form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+  <label>
+    First Name:
+    <input type="text" formControlName="firstName" required>
+  </label>
+
+  <label>
+    Last Name:
+    <input type="text" formControlName="lastName" required>
+  </label>
+
+  <label>
+    Email:
+    <input type="email" formControlName="email" required>
+  </label>
+
+  <label>
+    Phone Number:
+    <input type="text" formControlName="phoneNumber" required>
+  </label>
+
+  <button mat-raised-button color="primary" type="submit" [disabled]="!contactForm.valid">Submit</button>
+</form>

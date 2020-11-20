@@ -7,10 +7,12 @@ import {MaterialModule} from '../material';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import { ReactiveFormsModule } from '@angular/forms';
 import {HeaderComponent} from './components/header/header.component';
+import {ContactFormComponent} from './components/contact-form/contact-form.component';
 
 export const COMPONENTS = [
   AppComponent,
-  HeaderComponent
+  HeaderComponent,
+  ContactFormComponent
 ];
 
 
